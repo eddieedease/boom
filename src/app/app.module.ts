@@ -7,13 +7,15 @@ import { AboutComponent } from './about/about.component';
 import { AdminComponent } from './admin/admin.component';
 
 import { RouterModule } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     AboutComponent,
-    AdminComponent
+    AdminComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
