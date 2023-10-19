@@ -8,6 +8,8 @@ import { AdminComponent } from './admin/admin.component';
 
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     LandingComponent,
     AboutComponent,
     AdminComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +27,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
       {path: '', redirectTo: '/landing', pathMatch: 'full'},
       {path: 'landing', component: LandingComponent},
       {path: 'about', component: AboutComponent},
-      {path: 'admin', component: AdminComponent}
+      {path: 'admin', component: AdminComponent},
+      {path: 'contact', component: ContactComponent},
+      {path: 'login', component: LoginComponent}
     ]),
   ],
   providers: [],
