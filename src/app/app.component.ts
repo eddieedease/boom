@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'boom';
+
+
+  menuOpen = false;
+
+  mobileMenuOpen(){
+    this.menuOpen =! this.menuOpen;
+  }
+
 }
+
+
