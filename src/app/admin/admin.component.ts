@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AdminComponent {
 
+
+openMobileMenu(){
+  console.log('clicked mobile');
+  // sidebar.classList.toggle("-translate-x-full");
+}
+
 }
